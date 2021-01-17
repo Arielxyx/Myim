@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pwd_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="200dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:paddingBottom="30dp"
+    android:paddingTop="30dp">
+
+
+    <EditText
+        android:id="@+id/pwd_one"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:hint="请输入新的密码"
+        android:minHeight="145dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/pwd_two"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:hint="确认您的密码"
+        android:minHeight="145dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/update_pwd_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:text="确 定"
+        android:textColor="#2196F3"
+        android:textSize="15sp" />
+
+</LinearLayout>

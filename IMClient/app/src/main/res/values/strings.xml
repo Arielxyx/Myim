@@ -1,0 +1,29 @@
+<resources>
+    <!--<string name="app_name">Test_SocketChat</string>-->
+    <!--<string name="title_activity_login">Sign in</string>-->
+    <!--<string name="prompt_email">Email</string>-->
+    <!--<string name="prompt_password">Password</string>-->
+    <!--<string name="action_sign_in">Sign in or register</string>-->
+    <!--<string name="action_sign_in_short">Sign in</string>-->
+    <!--<string name="welcome">"Welcome !"</string>-->
+    <!--<string name="invalid_username">Not a valid username</string>-->
+    <!--<string name="invalid_password">Password must be >5 characters</string>-->
+    <!--<string name="login_failed">"Login failed"</string>-->
+
+    <string name="app_name">我的辛ball</string>
+    <string name="wechat">微信</string>
+    <string name="contacts">联系人</string>
+    <string name="discover">发现</string>
+    <string name="me">我</string>
+
+    <string name="track_line">Paint</string>
+    <string name="straight_line">Straight Line</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="oval">Oval</string>
+    <string name="circle">Circle</string>
+    <string name="dots">Dots</string>
+    <string name="Eraser">Eraser</string>
+    <string name="datetime_dialog_ok">设置</string>
+    <string name="datetime_dialog_cancel">取消</string>
+    <string name="remindsetting_name">提醒设置</string>
+</resources>

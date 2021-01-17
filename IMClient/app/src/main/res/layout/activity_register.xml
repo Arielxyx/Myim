@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="注册新账号"
+            android:textStyle="normal"
+            android:textColor="#2196F3"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/register_phone"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="手机号" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/register_password"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="密    码"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/register_confirm"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="确认密码"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/register_name"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="用户名"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/register_age"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="年    龄"
+            android:inputType="number"
+            android:maxLength="2" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/register_sexGroup"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:checkedButton="@+id/rb_girl"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/register_girl"
+            android:layout_width="133dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="女"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/register_boy"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="男"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="355dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_register"-->
+            <!--android:layout_width="73dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="60dp"-->
+            <!--android:background="#FFFFFF"-->
+            <!--android:text="OK"-->
+            <!--android:textColor="#2196F3" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_exit"-->
+            <!--android:layout_width="64dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="60dp"-->
+            <!--android:background="#FFFFFF"-->
+            <!--android:text="Cancel"-->
+            <!--android:textColor="#2196F3" />-->
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="注 册" />
+
+        <Button
+            android:id="@+id/register_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/button_style"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="取 消" />
+
+
+        <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginRight="40dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:background="@drawable/button_style"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="Sign in"/>-->
+    </LinearLayout>
+
+</LinearLayout>

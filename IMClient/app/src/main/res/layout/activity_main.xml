@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99D6D8DD"
+        android:gravity="center"
+        android:paddingBottom="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="228dp"
+            android:gravity="bottom|center"
+            android:text="Welcome"
+            android:textColor="#A4B7C7"
+            android:textSize="50sp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E2E1E1"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <EditText
+                android:id="@+id/login_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@null"
+                android:hint="手机号"
+                android:textColor="#9F9FA0"
+                android:textColorHint="#9F9FA0" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="#83738F"></View>
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@null"
+                android:hint="密码"
+                android:textColor="#9F9FA0"
+                android:inputType="textPassword"
+                android:textColorHint="#9F9FA0" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#99404348"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingTop="20dp"-->
+            <!--android:paddingBottom="30dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:text="Forget Password?"-->
+                <!--android:textColor="#DDDDDD"-->
+                <!--android:textSize="15sp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:text="Tap Here"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="登 录" />
+
+
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="40dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="@drawable/button_style"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="Sign in"/>-->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/login_register"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:autoLink="none"
+            android:autoText="false"
+            android:gravity="bottom"
+
+            android:text="还没有账号？"
+            android:textColor="#8D8181"
+            android:textSize="15sp"
+            android:textStyle="normal|italic" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#FFFFFF"-->
+    <!--tools:context=".Activity.MainActivity">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_sno"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="55dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="#008A6D6D"-->
+        <!--android:text="Account: "-->
+
+        <!--android:textColor="#2196F3"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/et_sno"-->
+        <!--android:layout_width="197dp"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_marginStart="12dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="phone"-->
+        <!--android:textColor="#000000"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/tv_sno"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/tv_sno"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/tv_sno"-->
+        <!--app:layout_constraintVertical_bias="0.476" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_psd"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="55dp"-->
+        <!--android:layout_marginTop="32dp"-->
+        <!--android:text="Password: "-->
+        <!--android:textColor="#2196F3"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/tv_sno" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/et_psd"-->
+        <!--android:layout_width="198dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginStart="12dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPassword"-->
+        <!--android:textColor="#000000"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/tv_psd"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/tv_psd"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/tv_psd" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_login"-->
+        <!--style="@android:style/Widget.Holo.Button"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="44dp"-->
+        <!--android:layout_marginStart="150dp"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:background="#ffffff"-->
+        <!--android:text="Login"-->
+        <!--android:textColor="#2196F3"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/et_psd" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_register"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="21dp"-->
+        <!--android:layout_marginEnd="44dp"-->
+        <!--android:layout_marginBottom="52dp"-->
+        <!--android:autoLink="none"-->
+        <!--android:autoText="false"-->
+        <!--android:text="尚未注册账号?"-->
+        <!--android:textColor="#2196F3"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="236dp"-->
+        <!--android:layout_height="92dp"-->
+        <!--android:layout_marginStart="80dp"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="IM"-->
+        <!--android:textColor="#2196F3"-->
+        <!--android:textSize="45sp"-->
+        <!--android:textStyle="bold|italic"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+
+
+

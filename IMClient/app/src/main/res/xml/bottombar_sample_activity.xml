@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_online"
+        id="@+id/tab1"
+        size="8sp"
+        title="消息"/>
+
+    <tab
+        icon="@drawable/ic_home"
+        id="@+id/tab2"
+        size="8sp"
+        title="我的"/>
+
+    <!--<tab-->
+        <!--icon="@drawable/ic_space"-->
+        <!--id="@+id/tab3"-->
+        <!--size="8sp"-->
+        <!--title="新闻"/>-->
+
+    <tab
+        icon="@drawable/ic_space"
+        id="@+id/tab3"
+        size="8sp"
+        title="动态"/>
+    <!--<tab-->
+        <!--icon="@drawable/ic_recents"-->
+        <!--id="@+id/tab4"-->
+        <!--title="Recent"/>-->
+    <!--<tab-->
+        <!--icon="@drawable/ic_restaurants"-->
+        <!--id="@+id/tab5"-->
+        <!--title="restaurants"/>-->
+</tabs>
